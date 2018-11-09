@@ -1,0 +1,923 @@
+﻿Log file open, 11/08/18 13:20:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Amazon_Rush
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(142354324) SRandInit(142354324).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.589357
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.08-19.20.37:598][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.08-19.20.37:598][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.08-19.20.37:811][  0]LogInit: Computer: DESKTOP-FEHR989
+[2018.11.08-19.20.37:811][  0]LogInit: User: Darin
+[2018.11.08-19.20.37:811][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.08-19.20.37:811][  0]LogInit: High frequency timer resolution =2.115885 MHz
+[2018.11.08-19.20.37:812][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.11.08-19.20.37:812][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.08-19.20.37:812][  0]LogMemory: Process Physical Memory: 277.60 MB used, 277.60 MB peak
+[2018.11.08-19.20.37:812][  0]LogMemory: Process Virtual Memory: 274.31 MB used, 274.31 MB peak
+[2018.11.08-19.20.37:813][  0]LogMemory: Physical Memory: 3476.05 MB used,  516.54 MB free, 3992.59 MB total
+[2018.11.08-19.20.37:813][  0]LogMemory: Virtual Memory: 4803.68 MB used,  516.54 MB free, 134217728.00 MB total
+[2018.11.08-19.20.41:286][  0]LogInit: Using OS detected language (en-US).
+[2018.11.08-19.20.41:286][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.08-19.20.42:260][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.08-19.21.19:241][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.08-19.21.19:273][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 11_0)
+[2018.11.08-19.21.19:274][  0]LogD3D11RHI:       64/0/1728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.08-19.21.19:334][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.08-19.21.19:335][  0]LogD3D11RHI:       0/0/1996 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.08-19.21.19:335][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.08-19.21.19:357][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.08-19.21.19:358][  0]LogD3D11RHI:     GPU DeviceId: 0xf31 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.08-19.21.19:358][  0]LogWindows: EnumDisplayDevices:
+[2018.11.08-19.21.19:358][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2018.11.08-19.21.19:359][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2018.11.08-19.21.19:359][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.08-19.21.19:359][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2018.11.08-19.21.19:359][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.08-19.21.19:359][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.08-19.21.19:366][  0]LogRHI: Texture pool is 649 MB (70% of 928 MB)
+[2018.11.08-19.21.19:419][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.08-19.21.19:515][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2018.11.08-19.21.19:555][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Intermediate/Shaders/WorkingDirectory/2936/).
+[2018.11.08-19.21.19:556][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Darin/AppData/Local/Temp/UnrealShaderWorkingDir/6BC9223546F6647E7CB51F8DE6EBCE6F/'.
+[2018.11.08-19.21.19:556][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.08-19.21.39:146][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.08-19.21.39:572][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.08-19.21.40:030][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.08-19.21.40:486][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.08-19.21.41:030][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.08-19.21.41:473][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.08-19.21.41:919][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.08-19.21.42:346][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.08-19.21.42:803][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.08-19.21.43:321][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.21.43:781][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.11.08-19.21.44:228][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.11.08-19.21.44:737][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.11.08-19.21.45:467][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.11.08-19.21.46:049][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.11.08-19.21.47:209][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.11.08-19.21.47:209][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.11.08-19.21.47:589][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.08-19.21.48:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.08-19.21.48:772][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.08-19.21.49:289][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.08-19.21.49:801][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.08-19.21.50:338][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.08-19.21.50:882][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.08-19.21.50:882][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.08-19.21.57:686][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.08-19.22.22:196][  0]LogDerivedDataCache: Loaded boot cache 24.44s 93MB C:/Users/Darin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.11.08-19.22.22:196][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Darin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.11.08-19.22.22:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.08-19.22.22:197][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.08-19.22.22:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.08-19.22.22:197][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.08-19.22.22:308][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.08-19.22.22:353][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Darin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.08-19.22.22:418][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.08-19.22.22:419][  0]LogSlate: Using Freetype 2.6.0
+[2018.11.08-19.22.22:893][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.08-19.22.22:893][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.08-19.22.30:801][  0]LogAssetRegistry: FAssetRegistry took 0.0599 seconds to start up
+[2018.11.08-19.22.32:171][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.08-19.22.40:270][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.11.08-19.22.44:431][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.08-19.22.44:880][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.08-19.22.44:914][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.08-19.22.44:914][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.08-19.22.44:914][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.11.08-19.22.44:914][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.11.08-19.22.57:044][  0]LogNetVersion: Amazon_Rush , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1647963713)
+[2018.11.08-19.23.04:135][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.537094 seconds
+[2018.11.08-19.23.04:261][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.11.08-19.23.04:261][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.11.08-19.23.04:277][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.08-19.23.05:048][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.11.08-19.24.32:276][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.08-19.24.32:634][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.08-19.24.39:674][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.11.08-19.24.43:681][  0]SourceControl: Source control is disabled
+[2018.11.08-19.24.43:689][  0]SourceControl: Source control is disabled
+[2018.11.08-19.24.44:181][  0]SourceControl: Source control is disabled
+[2018.11.08-19.24.44:668][  0]SourceControl: Source control is disabled
+[2018.11.08-19.24.50:815][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.08-19.24.53:046][  0]LogOcInput: OculusInput pre-init called
+[2018.11.08-19.24.56:300][  0]LogEngine: Initializing Engine...
+[2018.11.08-19.24.56:438][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.08-19.24.58:754][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.08-19.24.58:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.08-19.25.01:651][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.08-19.25.02:351][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.08-19.25.03:321][  0]LogInit: FAudioDevice initialized.
+[2018.11.08-19.25.04:082][  0]LogDerivedDataCache: Saved boot cache 0.73s 93MB C:/Users/Darin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.11.08-19.25.04:408][  0]LogInit: Texture streaming: Enabled
+[2018.11.08-19.25.06:330][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.08-19.25.09:341][  0]LogInit: Transaction tracking system initialized
+[2018.11.08-19.25.12:881][  0]BlueprintLog: New page: Editor Load
+[2018.11.08-19.25.22:884][  0]LogInit: Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
+[2018.11.08-19.25.24:522][  0]LocalizationService: Localization service is disabled
+[2018.11.08-19.25.32:492][  0]LogConsoleResponse: Display: 
+[2018.11.08-19.25.39:357][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/' took 0.02s
+[2018.11.08-19.25.39:358][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.08-19.25.39:375][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.08-19.25.39:459][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.08-19.25.56:299][  0]SourceControl: Source control is disabled
+[2018.11.08-19.25.56:421][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.08-19.25.56:502][  0]LightingResults: New page: Lighting Build
+[2018.11.08-19.25.57:251][  0]MapCheck: New page: Map Check
+[2018.11.08-19.25.57:256][  0]LightingResults: New page: Lighting Build
+[2018.11.08-19.26.05:078][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.11.08-19.26.06:479][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.08-19.26.06:877][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.08-19.26.07:323][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 445.638ms to complete.
+[2018.11.08-19.26.07:330][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 10.965
+[2018.11.08-19.26.11:793][  0]LogCollectionManager: Loaded 0 collections in 0.005124 seconds
+[2018.11.08-19.26.12:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Collections/' took 0.01s
+[2018.11.08-19.26.12:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/Developers/Darin/Collections/' took 0.01s
+[2018.11.08-19.26.12:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/Collections/' took 0.01s
+[2018.11.08-19.26.12:577][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.08-19.26.12:645][  0]LogContentBrowser: Native class hierarchy populated in 0.0651 seconds. Added 2386 classes and 500 folders.
+[2018.11.08-19.26.13:498][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2018.11.08-19.26.16:959][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2018.11.08-19.26.17:509][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0074 seconds. Added 1 classes and 2 folders.
+[2018.11.08-19.26.19:258][  0]LogSlate: Took 0.094622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.08-19.26.19:335][  0]LogSlate: Took 0.031862 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.08-19.26.19:728][  0]LogSlate: Took 0.121262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.08-19.26.21:799][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
+[2018.11.08-19.26.28:012][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2018.11.08-19.26.28:013][  0]LogLoad: (Engine Initialization) Total time: 379.91 seconds
+[2018.11.08-19.26.28:013][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.08-19.26.28:054][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.11.08-19.26.29:316][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.08-19.26.30:938][  2]LogSlate: Took 0.033952 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.08-19.26.32:676][  8]LogAssetRegistry: Asset discovery search completed in 241.9064 seconds
+[2018.11.08-19.26.32:740][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.08-19.26.32:741][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.016746 seconds (updated 0 objects)
+[2018.11.08-19.28.44:470][599]LogSlate: Took 0.019036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.08-19.28.49:761][682]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.08-19.28.57:313][682]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0097 seconds. Added 113 classes and 0 folders.
+[2018.11.08-19.29.04:829][682]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite)
+[2018.11.08-19.29.22:145][825]LogSlate: Took 0.011159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.08-19.29.24:738][825]LogSlate: Took 0.099261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.08-19.36.29:250][844]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.336
+[2018.11.08-19.36.29:340][844]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/2DSideScrollerOverview] ([1] browsable assets)...
+[2018.11.08-19.36.29:386][844]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/2DSideScrollerOverview]
+[2018.11.08-19.36.30:958][844]LogSlate: Took 0.426788 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.08-19.36.32:069][844]LogSavePackage: Save=2552.35ms
+[2018.11.08-19.36.32:089][844]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/2DSideScrollerOverview_Auto16407035B4635F8DE2D2C9CA014E75B2B.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/2DSideScrollerOverview_Auto1.uasset'
+[2018.11.08-19.36.32:152][844]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/2DSideScrollerOverview_Auto1.uasset
+[2018.11.08-19.36.32:152][844]LogFileHelpers: Auto-saving content packages took 2.870
+[2018.11.08-19.47.37:516][843]LogSlate: Took 0.206889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.08-19.50.40:731][934]Cmd: TRANSACTION UNDO
+[2018.11.08-19.50.40:731][934]LogEditorTransaction: Undo Add Variable
+[2018.11.08-19.51.17:851][165]LogRenderer: Reallocating scene render targets to support 856x588 Format 10 NumSamples 1 (Frame:1).
+[2018.11.08-19.51.43:809][224]LogSavePackage: Save=761.50ms
+[2018.11.08-19.51.43:818][224]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/2DSideScrollerExampleMap_Auto2ADA549AB488501609C77DF8827AD5113.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap'
+[2018.11.08-19.51.43:833][224]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap
+[2018.11.08-19.51.43:918][224]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 1.683
+[2018.11.08-19.51.43:919][224]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.683
+[2018.11.08-19.51.43:976][224]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter] ([1] browsable assets)...
+[2018.11.08-19.51.43:976][224]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter]
+[2018.11.08-19.51.45:683][224]LogSavePackage: Save=1498.75ms
+[2018.11.08-19.51.45:683][224]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/2DSideScrollerCharacter_Auto2860A5AE145F34F41FB777AA1C260242D.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto2.uasset'
+[2018.11.08-19.51.45:692][224]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto2.uasset
+[2018.11.08-19.51.45:692][224]LogFileHelpers: Auto-saving content packages took 1.744
+[2018.11.08-23.56.37:011][458]AssetReimport: New page: Outstanding source content changes 11:56:36 AM
+[2018.11.08-23.56.41:046][460]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (1).png]
+[2018.11.08-23.56.41:067][460]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (1).png)
+[2018.11.08-23.56.43:970][460]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.44:880][461]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (10).png]
+[2018.11.08-23.56.44:943][461]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (10).png)
+[2018.11.08-23.56.45:116][461]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.45:528][462]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (2).png]
+[2018.11.08-23.56.45:552][462]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (2).png)
+[2018.11.08-23.56.45:723][462]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.46:054][463]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (3).png]
+[2018.11.08-23.56.46:086][463]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (3).png)
+[2018.11.08-23.56.46:305][463]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.46:538][464]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (4).png]
+[2018.11.08-23.56.46:580][464]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (4).png)
+[2018.11.08-23.56.46:751][464]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.47:167][465]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (5).png]
+[2018.11.08-23.56.47:195][465]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (5).png)
+[2018.11.08-23.56.47:406][465]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.47:747][466]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (6).png]
+[2018.11.08-23.56.47:792][466]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (6).png)
+[2018.11.08-23.56.47:966][466]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.48:291][467]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (7).png]
+[2018.11.08-23.56.48:312][467]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (7).png)
+[2018.11.08-23.56.48:556][467]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.48:813][468]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (8).png]
+[2018.11.08-23.56.48:837][468]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (8).png)
+[2018.11.08-23.56.49:067][468]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.49:372][469]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (9).png]
+[2018.11.08-23.56.49:425][469]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (9).png)
+[2018.11.08-23.56.49:589][469]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.49:887][470]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (1).png]
+[2018.11.08-23.56.49:922][470]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (1).png)
+[2018.11.08-23.56.50:134][470]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.50:450][471]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (10).png]
+[2018.11.08-23.56.50:504][471]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (10).png)
+[2018.11.08-23.56.50:702][471]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.50:956][472]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (2).png]
+[2018.11.08-23.56.50:983][472]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (2).png)
+[2018.11.08-23.56.51:328][472]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.53:218][473]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (3).png]
+[2018.11.08-23.56.53:259][473]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (3).png)
+[2018.11.08-23.56.53:970][473]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.57:238][474]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (4).png]
+[2018.11.08-23.56.57:463][474]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (4).png)
+[2018.11.08-23.56.58:068][474]LogEditorFactories: -- imported successfully
+[2018.11.08-23.56.58:746][475]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (5).png]
+[2018.11.08-23.56.58:825][475]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (5).png)
+[2018.11.08-23.56.59:232][475]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.01:034][476]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (6).png]
+[2018.11.08-23.57.01:066][476]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (6).png)
+[2018.11.08-23.57.01:253][476]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.03:176][477]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (7).png]
+[2018.11.08-23.57.03:751][477]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (7).png)
+[2018.11.08-23.57.05:096][477]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.06:660][478]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (8).png]
+[2018.11.08-23.57.06:681][478]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (8).png)
+[2018.11.08-23.57.06:913][478]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.07:612][479]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (9).png]
+[2018.11.08-23.57.07:639][479]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (9).png)
+[2018.11.08-23.57.07:878][479]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.08:236][480]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (1).png]
+[2018.11.08-23.57.08:268][480]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (1).png)
+[2018.11.08-23.57.08:541][480]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.09:141][481]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (2).png]
+[2018.11.08-23.57.09:174][481]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (2).png)
+[2018.11.08-23.57.09:652][481]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.11:409][482]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (3).png]
+[2018.11.08-23.57.11:543][482]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (3).png)
+[2018.11.08-23.57.12:027][482]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.12:528][483]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (4).png]
+[2018.11.08-23.57.12:757][483]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (4).png)
+[2018.11.08-23.57.13:103][483]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.13:552][484]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (5).png]
+[2018.11.08-23.57.13:584][484]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (5).png)
+[2018.11.08-23.57.13:979][484]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.14:420][485]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (6).png]
+[2018.11.08-23.57.14:458][485]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (6).png)
+[2018.11.08-23.57.14:684][485]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.15:070][486]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (7).png]
+[2018.11.08-23.57.15:105][486]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (7).png)
+[2018.11.08-23.57.15:446][486]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.15:850][487]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (8).png]
+[2018.11.08-23.57.15:897][487]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (8).png)
+[2018.11.08-23.57.16:233][487]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.16:649][488]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (1).png]
+[2018.11.08-23.57.16:676][488]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (1).png)
+[2018.11.08-23.57.16:951][488]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.17:358][489]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (2).png]
+[2018.11.08-23.57.17:382][489]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (2).png)
+[2018.11.08-23.57.17:978][489]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.18:579][490]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (3).png]
+[2018.11.08-23.57.18:629][490]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (3).png)
+[2018.11.08-23.57.18:951][490]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.19:478][491]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (4).png]
+[2018.11.08-23.57.19:521][491]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (4).png)
+[2018.11.08-23.57.19:849][491]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.20:276][492]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (5).png]
+[2018.11.08-23.57.20:352][492]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (5).png)
+[2018.11.08-23.57.20:697][492]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.21:382][493]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (6).png]
+[2018.11.08-23.57.21:421][493]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (6).png)
+[2018.11.08-23.57.21:775][493]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.22:138][494]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (7).png]
+[2018.11.08-23.57.22:151][494]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (7).png)
+[2018.11.08-23.57.22:421][494]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.22:787][495]LogEditorFactories: Performing atomic reimport of [C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (8).png]
+[2018.11.08-23.57.22:814][495]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (8).png)
+[2018.11.08-23.57.23:033][495]LogEditorFactories: -- imported successfully
+[2018.11.08-23.57.29:538][496]LogSavePackage: Save=2748.73ms
+[2018.11.08-23.57.29:539][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_10A1E30304BD730202FFB788F7097A3C8.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_1.uasset'
+[2018.11.08-23.57.29:862][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_1.uasset
+[2018.11.08-23.57.30:242][496]LogSavePackage: Save=195.35ms
+[2018.11.08-23.57.30:242][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_105CDF692E4B6FE4BEDCC4A9AE1FFCD74C.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_10.uasset'
+[2018.11.08-23.57.30:263][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_10.uasset
+[2018.11.08-23.57.30:767][496]LogSavePackage: Save=224.34ms
+[2018.11.08-23.57.30:785][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_2FFACE8F14A98F2D69CCD64A09CDA6695.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_2.uasset'
+[2018.11.08-23.57.30:820][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_2.uasset
+[2018.11.08-23.57.31:343][496]LogSavePackage: Save=307.45ms
+[2018.11.08-23.57.31:343][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_3D495B1224C5E4E029D5589884ACDFDA0.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_3.uasset'
+[2018.11.08-23.57.31:366][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_3.uasset
+[2018.11.08-23.57.31:848][496]LogSavePackage: Save=284.57ms
+[2018.11.08-23.57.31:848][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_44F62297B4E77DABB885B348A65D0BA2F.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_4.uasset'
+[2018.11.08-23.57.31:878][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_4.uasset
+[2018.11.08-23.57.32:306][496]LogSavePackage: Save=250.55ms
+[2018.11.08-23.57.32:307][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_564EF75F2424F357AB44F479C085BAF6F.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_5.uasset'
+[2018.11.08-23.57.32:329][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_5.uasset
+[2018.11.08-23.57.32:624][496]LogSavePackage: Save=141.35ms
+[2018.11.08-23.57.32:625][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_6CE0AD05C42DCDA72B9F43E9B2370FA59.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_6.uasset'
+[2018.11.08-23.57.32:646][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_6.uasset
+[2018.11.08-23.57.33:068][496]LogSavePackage: Save=173.97ms
+[2018.11.08-23.57.33:069][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_7947D14A14FDF6731A7B6F5A8FE5867F1.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_7.uasset'
+[2018.11.08-23.57.33:092][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_7.uasset
+[2018.11.08-23.57.33:410][496]LogSavePackage: Save=163.80ms
+[2018.11.08-23.57.33:410][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_84BD6423B42AFF0A19420739599E50E4D.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_8.uasset'
+[2018.11.08-23.57.33:428][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_8.uasset
+[2018.11.08-23.57.33:778][496]LogSavePackage: Save=194.98ms
+[2018.11.08-23.57.33:778][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerDead_9303F806D49F04122C37BC0B81F899DCA.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_9.uasset'
+[2018.11.08-23.57.33:813][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerDead_9.uasset
+[2018.11.08-23.57.34:126][496]LogSavePackage: Save=138.27ms
+[2018.11.08-23.57.34:126][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_191B438A149E99987514E2A9EC35CB93F.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_1.uasset'
+[2018.11.08-23.57.34:146][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_1.uasset
+[2018.11.08-23.57.34:495][496]LogSavePackage: Save=181.22ms
+[2018.11.08-23.57.34:495][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_101081ACA043E76FC9F3AEEA8C74E4EC71.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_10.uasset'
+[2018.11.08-23.57.34:520][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_10.uasset
+[2018.11.08-23.57.34:781][496]LogSavePackage: Save=118.32ms
+[2018.11.08-23.57.34:781][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_2B1440A88464BD789CA4615AB561EF1E4.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_2.uasset'
+[2018.11.08-23.57.34:806][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_2.uasset
+[2018.11.08-23.57.35:084][496]LogSavePackage: Save=150.14ms
+[2018.11.08-23.57.35:090][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_3BA1C5DA54591D6EB554F1E8DA37A8BB1.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_3.uasset'
+[2018.11.08-23.57.35:108][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_3.uasset
+[2018.11.08-23.57.35:378][496]LogSavePackage: Save=126.85ms
+[2018.11.08-23.57.35:378][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_48152801E4B1BC6A82FEFA3B926BB8868.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_4.uasset'
+[2018.11.08-23.57.35:400][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_4.uasset
+[2018.11.08-23.57.35:640][496]LogSavePackage: Save=121.32ms
+[2018.11.08-23.57.35:647][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_5D66933DB40A46609EDCC20AAC5FA86E8.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_5.uasset'
+[2018.11.08-23.57.35:665][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_5.uasset
+[2018.11.08-23.57.35:941][496]LogSavePackage: Save=119.12ms
+[2018.11.08-23.57.35:941][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_60E21321143FBE00067860483C5356559.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_6.uasset'
+[2018.11.08-23.57.35:965][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_6.uasset
+[2018.11.08-23.57.36:211][496]LogSavePackage: Save=119.03ms
+[2018.11.08-23.57.36:211][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_720DE8AD04DCBBDCA8F322899F79D7F2C.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_7.uasset'
+[2018.11.08-23.57.36:236][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_7.uasset
+[2018.11.08-23.57.36:514][496]LogSavePackage: Save=133.41ms
+[2018.11.08-23.57.36:522][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_86D0D7A924B5F2F5842CCBCB1E22DF4B5.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_8.uasset'
+[2018.11.08-23.57.36:539][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_8.uasset
+[2018.11.08-23.57.36:839][496]LogSavePackage: Save=155.74ms
+[2018.11.08-23.57.36:839][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerHurt_97B067CEC40E8F8A86B870A9EBA90BE7F.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_9.uasset'
+[2018.11.08-23.57.36:857][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerHurt_9.uasset
+[2018.11.08-23.57.37:131][496]LogSavePackage: Save=126.46ms
+[2018.11.08-23.57.37:131][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerJump_14B3B66724B6FBA8ED54449B1450631D1.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_1.uasset'
+[2018.11.08-23.57.37:149][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_1.uasset
+[2018.11.08-23.57.37:423][496]LogSavePackage: Save=132.18ms
+[2018.11.08-23.57.37:423][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerJump_2D22111644EDA52C1845FF9B7805A2A6B.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_2.uasset'
+[2018.11.08-23.57.37:449][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_2.uasset
+[2018.11.08-23.57.37:704][496]LogSavePackage: Save=140.41ms
+[2018.11.08-23.57.37:704][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerJump_39F14FDED49BC7EF76A3312BC158F14C3.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_3.uasset'
+[2018.11.08-23.57.37:725][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_3.uasset
+[2018.11.08-23.57.38:025][496]LogSavePackage: Save=150.08ms
+[2018.11.08-23.57.38:025][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerJump_4B2E921D447DDAA63F93DAFB674989CF4.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_4.uasset'
+[2018.11.08-23.57.38:043][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_4.uasset
+[2018.11.08-23.57.38:304][496]LogSavePackage: Save=132.36ms
+[2018.11.08-23.57.38:304][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerJump_5984E7AF84D7DE7B9CE3613B76F7C754D.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_5.uasset'
+[2018.11.08-23.57.38:330][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_5.uasset
+[2018.11.08-23.57.38:586][496]LogSavePackage: Save=126.32ms
+[2018.11.08-23.57.38:586][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerJump_6C74EBAAD438794555B87F291961CFFC3.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_6.uasset'
+[2018.11.08-23.57.38:603][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_6.uasset
+[2018.11.08-23.57.38:890][496]LogSavePackage: Save=160.91ms
+[2018.11.08-23.57.38:890][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerJump_734F5BC25402288BB167E888D674D6CC8.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_7.uasset'
+[2018.11.08-23.57.38:908][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_7.uasset
+[2018.11.08-23.57.39:161][496]LogSavePackage: Save=119.43ms
+[2018.11.08-23.57.39:162][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerJump_886D71B2247E3146E593D9E802A070EA2.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_8.uasset'
+[2018.11.08-23.57.39:186][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerJump_8.uasset
+[2018.11.08-23.57.39:447][496]LogSavePackage: Save=118.76ms
+[2018.11.08-23.57.39:447][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerRun_1EFC5471F4A4FFA043B103BB0AB8C6DC8.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_1.uasset'
+[2018.11.08-23.57.39:472][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_1.uasset
+[2018.11.08-23.57.39:725][496]LogSavePackage: Save=126.73ms
+[2018.11.08-23.57.39:726][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerRun_2CD7F524F4B367775B2A7DAA9578B257B.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_2.uasset'
+[2018.11.08-23.57.39:744][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_2.uasset
+[2018.11.08-23.57.40:021][496]LogSavePackage: Save=139.22ms
+[2018.11.08-23.57.40:021][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerRun_3FE28E12A46A22D474AD3B3B961D51705.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_3.uasset'
+[2018.11.08-23.57.40:049][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_3.uasset
+[2018.11.08-23.57.40:355][496]LogSavePackage: Save=171.59ms
+[2018.11.08-23.57.40:355][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerRun_400052041439E7BCFB83DF6A47B1E6B3D.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_4.uasset'
+[2018.11.08-23.57.40:384][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_4.uasset
+[2018.11.08-23.57.40:735][496]LogSavePackage: Save=140.88ms
+[2018.11.08-23.57.40:735][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerRun_5D361E6BF44EDEEBB55252DB21EE4AA60.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_5.uasset'
+[2018.11.08-23.57.40:753][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_5.uasset
+[2018.11.08-23.57.41:120][496]LogSavePackage: Save=208.47ms
+[2018.11.08-23.57.41:120][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerRun_6E263EAF04EAE4651A1EA8BB2B72BE093.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_6.uasset'
+[2018.11.08-23.57.41:146][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_6.uasset
+[2018.11.08-23.57.41:437][496]LogSavePackage: Save=163.57ms
+[2018.11.08-23.57.41:437][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerRun_72D7D3D9141FB0170229909917BFEF4B8.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_7.uasset'
+[2018.11.08-23.57.41:463][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_7.uasset
+[2018.11.08-23.57.41:837][496]LogSavePackage: Save=193.52ms
+[2018.11.08-23.57.41:837][496]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/T_PlayerRun_86A4566FB4F939600D25B44B1A69A5D36.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_8.uasset'
+[2018.11.08-23.57.41:870][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/T_PlayerRun_8.uasset
+[2018.11.08-23.57.45:303][506]AssetReimport: Reimported asset T_PlayerDead_1 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (1).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerDead_10 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (10).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerDead_2 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (2).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerDead_3 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (3).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerDead_4 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (4).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerDead_5 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (5).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerDead_6 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (6).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerDead_7 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (7).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerDead_8 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (8).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerDead_9 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Dead (9).png.
+[2018.11.08-23.57.45:309][506]AssetReimport: Reimported asset T_PlayerHurt_1 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (1).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerHurt_10 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (10).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerHurt_2 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (2).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerHurt_3 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (3).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerHurt_4 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (4).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerHurt_5 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (5).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerHurt_6 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (6).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerHurt_7 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (7).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerHurt_8 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (8).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerHurt_9 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Hurt (9).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerJump_1 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (1).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerJump_2 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (2).png.
+[2018.11.08-23.57.45:310][506]AssetReimport: Reimported asset T_PlayerJump_3 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (3).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerJump_4 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (4).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerJump_5 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (5).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerJump_6 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (6).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerJump_7 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (7).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerJump_8 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Jump (8).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerRun_1 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (1).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerRun_2 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (2).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerRun_3 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (3).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerRun_4 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (4).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerRun_5 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (5).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerRun_6 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (6).png.
+[2018.11.08-23.57.45:311][506]AssetReimport: Reimported asset T_PlayerRun_7 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (7).png.
+[2018.11.08-23.57.45:312][506]AssetReimport: Reimported asset T_PlayerRun_8 from C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/EndlessRunner2D/GFX/Textures/Character/cat/Run (8).png.
+[2018.11.09-00.06.52:145][169]LogSavePackage: Save=5615.73ms
+[2018.11.09-00.06.52:145][169]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/2DSideScrollerExampleMap_Auto3F7E8AE70499E1605B1BE8FBC592C8DB5.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto3.umap'
+[2018.11.09-00.06.52:157][169]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto3.umap
+[2018.11.09-00.06.52:385][169]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 19.354
+[2018.11.09-00.06.52:385][169]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 19.354
+[2018.11.09-00.44.53:854][484]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/pngs/Amazon Rush background.png)
+[2018.11.09-00.44.54:653][484]LogTexture: Display: Building textures: Amazon_Rush_background (AutoDXT, 160X64)
+[2018.11.09-00.44.55:034][484]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/pngs/ospreyhawk_sprite_with_color.png)
+[2018.11.09-00.44.55:107][484]LogTexture: Display: Building textures: ospreyhawk_sprite_with_color (AutoDXT, 32X32)
+[2018.11.09-00.44.55:154][484]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/pngs/otter_animaton.png)
+[2018.11.09-00.44.55:190][484]LogTexture: Display: Building textures: otter_animaton (AutoDXT, 32X32)
+[2018.11.09-00.44.55:224][484]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/pngs/River background.png)
+[2018.11.09-00.44.55:258][484]LogTexture: Display: Building textures: River_background (AutoDXT, 160X64)
+[2018.11.09-00.44.55:300][484]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/pngs/spike_animation.png)
+[2018.11.09-00.44.55:343][484]LogTexture: Display: Building textures: spike_animation (AutoDXT, 32X32)
+[2018.11.09-00.44.55:391][484]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/pngs/the_main_character_sprite running.png)
+[2018.11.09-00.44.55:397][484]LogTexture: Display: Building textures: the_main_character_sprite_running (AutoDXT, 32X32)
+[2018.11.09-00.45.02:323][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.194
+[2018.11.09-00.45.02:339][485]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Amazon_Rush_background] ([1] browsable assets)...
+[2018.11.09-00.45.02:370][485]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Blueprints/Amazon_Rush_background.Amazon_Rush_background]
+[2018.11.09-00.45.02:370][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Amazon_Rush_background]
+[2018.11.09-00.45.02:510][485]LogSavePackage: Save=112.86ms
+[2018.11.09-00.45.02:510][485]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Amazon_Rush_background_Auto43E3EA26A44600DF33B2E50ABEB42F17D.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Amazon_Rush_background_Auto4.uasset'
+[2018.11.09-00.45.02:538][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Amazon_Rush_background_Auto4.uasset
+[2018.11.09-00.45.02:541][485]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/ospreyhawk_sprite_with_color] ([1] browsable assets)...
+[2018.11.09-00.45.02:543][485]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Blueprints/ospreyhawk_sprite_with_color.ospreyhawk_sprite_with_color]
+[2018.11.09-00.45.02:543][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/ospreyhawk_sprite_with_color]
+[2018.11.09-00.45.02:589][485]LogSavePackage: Save=32.24ms
+[2018.11.09-00.45.02:589][485]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/ospreyhawk_sprite_with_color_Auto41410CA8D4688804B1AB6F4951D9C0E4C.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/ospreyhawk_sprite_with_color_Auto4.uasset'
+[2018.11.09-00.45.02:617][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/ospreyhawk_sprite_with_color_Auto4.uasset
+[2018.11.09-00.45.02:620][485]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/otter_animaton] ([1] browsable assets)...
+[2018.11.09-00.45.02:622][485]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Blueprints/otter_animaton.otter_animaton]
+[2018.11.09-00.45.02:622][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/otter_animaton]
+[2018.11.09-00.45.02:704][485]LogSavePackage: Save=24.69ms
+[2018.11.09-00.45.02:704][485]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/otter_animaton_Auto4A89DD6CD469A36CC93E249AFD20CB589.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/otter_animaton_Auto4.uasset'
+[2018.11.09-00.45.02:713][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/otter_animaton_Auto4.uasset
+[2018.11.09-00.45.02:715][485]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/River_background] ([1] browsable assets)...
+[2018.11.09-00.45.02:777][485]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Blueprints/River_background.River_background]
+[2018.11.09-00.45.02:777][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/River_background]
+[2018.11.09-00.45.02:841][485]LogSavePackage: Save=32.78ms
+[2018.11.09-00.45.02:841][485]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/River_background_Auto46DD3745C48496DC330704EB639301D09.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/River_background_Auto4.uasset'
+[2018.11.09-00.45.02:845][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/River_background_Auto4.uasset
+[2018.11.09-00.45.02:852][485]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/spike_animation] ([1] browsable assets)...
+[2018.11.09-00.45.02:861][485]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Blueprints/spike_animation.spike_animation]
+[2018.11.09-00.45.02:862][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/spike_animation]
+[2018.11.09-00.45.02:954][485]LogSavePackage: Save=80.73ms
+[2018.11.09-00.45.02:954][485]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/spike_animation_Auto45569FB09433798B0648DC9A534316FBA.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/spike_animation_Auto4.uasset'
+[2018.11.09-00.45.02:964][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/spike_animation_Auto4.uasset
+[2018.11.09-00.45.02:966][485]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/the_main_character_sprite_running] ([1] browsable assets)...
+[2018.11.09-00.45.02:968][485]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Blueprints/the_main_character_sprite_running.the_main_character_sprite_running]
+[2018.11.09-00.45.02:968][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/the_main_character_sprite_running]
+[2018.11.09-00.45.03:033][485]LogSavePackage: Save=32.66ms
+[2018.11.09-00.45.03:033][485]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/the_main_character_sprite_running_Auto4D625A05F4F86553039710B96DDC62469.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/the_main_character_sprite_running_Auto4.uasset'
+[2018.11.09-00.45.03:043][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/the_main_character_sprite_running_Auto4.uasset
+[2018.11.09-00.45.03:043][485]LogFileHelpers: Auto-saving content packages took 0.718
+[2018.11.09-00.45.42:948][613]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/EndlessRunnerKit2D.png)
+[2018.11.09-00.45.43:056][613]LogTexture: Display: Building textures: EndlessRunnerKit2D (AutoDXT, 192X192)
+[2018.11.09-00.46.09:079][725]LogSavePackage: Save=417.94ms
+[2018.11.09-00.46.09:079][725]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/2DSideScrollerExampleMap195F540542FDA88F09DAC0BA3BF77299.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.11.09-00.46.09:199][725]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.11.09-00.46.09:746][725]LogSavePackage: Save=76.06ms
+[2018.11.09-00.46.09:746][725]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/2DSideScrollerExampleMap_BuiltData5BC2C68841F93FE42E593EADA5F46BA2.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2018.11.09-00.46.09:780][725]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.11.09-00.46.24:082][777]LogSavePackage: Save=881.35ms
+[2018.11.09-00.46.24:082][777]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/2DSideScrollerOverviewBB07C94C439FA72F2AE689B2ECC325A3.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/2DSideScrollerOverview.uasset'
+[2018.11.09-00.46.24:128][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/2DSideScrollerOverview.uasset
+[2018.11.09-00.46.25:752][777]LogSavePackage: Save=1451.35ms
+[2018.11.09-00.46.25:752][777]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/2DSideScrollerCharacterA09B70D2483BD6F9CE340B8F4E71109C.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.11.09-00.46.25:795][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2018.11.09-00.46.25:970][777]LogSavePackage: Save=120.29ms
+[2018.11.09-00.46.25:970][777]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Amazon_Rush_backgroundB357976B4699F62E4D4CBC861720DE2F.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/Amazon_Rush_background.uasset'
+[2018.11.09-00.46.26:010][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/Amazon_Rush_background.uasset
+[2018.11.09-00.46.26:148][777]LogSavePackage: Save=63.57ms
+[2018.11.09-00.46.26:148][777]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/EndlessRunnerKit2DC26BD71D4DF71163CFF0298FEB2D243D.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/EndlessRunnerKit2D.uasset'
+[2018.11.09-00.46.26:165][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/EndlessRunnerKit2D.uasset
+[2018.11.09-00.46.26:232][777]LogSavePackage: Save=30.41ms
+[2018.11.09-00.46.26:232][777]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/ospreyhawk_sprite_with_colorB63AFD634EF87AC27C63AC8362DB5087.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/ospreyhawk_sprite_with_color.uasset'
+[2018.11.09-00.46.26:278][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/ospreyhawk_sprite_with_color.uasset
+[2018.11.09-00.46.26:340][777]LogSavePackage: Save=32.50ms
+[2018.11.09-00.46.26:340][777]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/otter_animaton8329F0264C7348B7182DACA93C4C0F80.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/otter_animaton.uasset'
+[2018.11.09-00.46.26:383][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/otter_animaton.uasset
+[2018.11.09-00.46.26:512][777]LogSavePackage: Save=88.61ms
+[2018.11.09-00.46.26:512][777]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/River_background6BB645B14C5E2DE858F019858CC19D8E.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/River_background.uasset'
+[2018.11.09-00.46.26:558][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/River_background.uasset
+[2018.11.09-00.46.26:623][777]LogSavePackage: Save=31.61ms
+[2018.11.09-00.46.26:623][777]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/spike_animation30C038E44C36C71871F7FC82C13F5216.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/spike_animation.uasset'
+[2018.11.09-00.46.26:655][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/spike_animation.uasset
+[2018.11.09-00.46.26:718][777]LogSavePackage: Save=33.20ms
+[2018.11.09-00.46.26:718][777]LogSavePackage: Moving '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/the_main_character_sprite_running053B8C354521482A402B7481E09A3562.tmp' to '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/the_main_character_sprite_running.uasset'
+[2018.11.09-00.46.26:749][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/2DSideScrollerBP/Blueprints/the_main_character_sprite_running.uasset
+[2018.11.09-00.46.27:644][777]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.09-00.46.32:727][778]Cmd: QUIT_EDITOR
+[2018.11.09-00.46.36:948][778]LogExit: Preparing to exit.
+[2018.11.09-00.46.56:322][778]LogDirectoryWatcher: A directory notification for 'C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/' was aborted.
+[2018.11.09-00.47.04:269][778]LogExit: Editor shut down
+[2018.11.09-00.47.04:950][778]LogExit: Transaction tracking system shut down
+[2018.11.09-00.47.11:966][778]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.11.09-00.47.11:966][778]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/' was aborted.
+[2018.11.09-00.47.11:966][778]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.11.09-00.47.11:966][778]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.11.09-00.47.11:967][778]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.11.09-00.47.55:591][778]LogExit: Object subsystem successfully closed.
+[2018.11.09-00.48.00:244][778]LogD3D11RHI: Shutdown
+[2018.11.09-00.48.00:245][778]LogD3D11RHI: CleanupD3DDevice
+[2018.11.09-00.48.05:389][778]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.09-00.48.17:506][778]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2018.11.09-00.48.17:527][778]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2018.11.09-00.48.17:603][778]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.11.09-00.48.17:603][778]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.11.09-00.48.17:688][778]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.11.09-00.48.18:138][778]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.11.09-00.48.19:951][778]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.11.09-00.48.19:952][778]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.11.09-00.48.19:952][778]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.11.09-00.48.20:002][778]LogDirectoryWatcher: A directory notification for 'C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/Collections/' was aborted.
+[2018.11.09-00.48.20:003][778]LogDirectoryWatcher: A directory notification for 'C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Content/Developers/Darin/Collections/' was aborted.
+[2018.11.09-00.48.20:003][778]LogDirectoryWatcher: A directory notification for 'C:/Users/Darin/Documents/GitHub/Amazon_Rush/Amazon_Rush/Saved/Collections/' was aborted.
+[2018.11.09-00.48.20:004][778]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.11.09-00.48.20:108][778]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.11.09-00.48.20:139][778]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.11.09-00.48.20:979][778]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.11.09-00.48.21:057][778]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.11.09-00.48.21:058][778]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.11.09-00.48.21:058][778]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.11.09-00.48.21:058][778]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.11.09-00.48.21:058][778]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.11.09-00.48.21:092][778]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.11.09-00.48.21:113][778]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.11.09-00.48.21:183][778]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.11.09-00.48.21:269][778]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.11.09-00.48.21:381][778]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.11.09-00.48.21:751][778]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.11.09-00.48.22:604][778]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.11.09-00.48.22:604][778]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.11.09-00.48.22:604][778]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.11.09-00.48.22:604][778]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.11.09-00.48.22:605][778]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.11.09-00.48.22:605][778]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.11.09-00.48.22:605][778]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.11.09-00.48.22:605][778]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.11.09-00.48.22:605][778]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.11.09-00.48.22:763][778]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.11.09-00.48.22:827][778]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.11.09-00.48.22:856][778]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.11.09-00.48.22:856][778]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.11.09-00.48.22:856][778]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.11.09-00.48.22:919][778]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.11.09-00.48.22:948][778]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.11.09-00.48.23:396][778]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.11.09-00.48.24:100][778]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.11.09-00.48.24:464][778]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.11.09-00.48.24:839][778]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.11.09-00.48.24:862][778]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.11.09-00.48.24:862][778]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.11.09-00.48.24:918][778]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.11.09-00.48.25:842][778]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.11.09-00.48.25:843][778]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.11.09-00.48.25:843][778]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.11.09-00.48.25:843][778]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.11.09-00.48.26:115][778]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.11.09-00.48.26:179][778]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.11.09-00.48.26:241][778]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.11.09-00.48.26:302][778]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.11.09-00.48.26:481][778]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.11.09-00.48.26:824][778]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.11.09-00.48.26:973][778]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.11.09-00.48.26:973][778]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.11.09-00.48.27:013][778]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.11.09-00.48.27:121][778]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.11.09-00.48.27:164][778]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.11.09-00.48.27:206][778]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.11.09-00.48.27:252][778]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.11.09-00.48.27:349][778]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.11.09-00.48.27:349][778]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.11.09-00.48.27:662][778]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.11.09-00.48.27:786][778]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.11.09-00.48.27:865][778]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.11.09-00.48.28:105][778]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.11.09-00.48.28:260][778]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.11.09-00.48.28:322][778]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.11.09-00.48.28:466][778]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.11.09-00.48.28:660][778]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.11.09-00.48.28:980][778]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.11.09-00.48.28:980][778]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.11.09-00.48.29:468][778]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.11.09-00.48.29:469][778]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.11.09-00.48.30:090][778]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.11.09-00.48.30:090][778]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.11.09-00.48.30:127][778]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.11.09-00.48.32:107][778]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.11.09-00.48.32:344][778]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.11.09-00.48.32:345][778]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.11.09-00.48.32:453][778]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.11.09-00.48.33:422][778]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.11.09-00.48.33:456][778]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.11.09-00.48.33:488][778]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.11.09-00.48.33:541][778]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.11.09-00.48.33:620][778]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.11.09-00.48.33:620][778]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.11.09-00.48.33:620][778]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.11.09-00.48.34:979][778]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.11.09-00.48.34:981][778]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.11.09-00.48.34:982][778]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.11.09-00.48.34:982][778]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.11.09-00.48.34:982][778]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.11.09-00.48.34:982][778]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.11.09-00.48.34:983][778]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.11.09-00.48.35:205][778]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.11.09-00.48.35:303][778]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.11.09-00.48.35:336][778]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.11.09-00.48.35:545][778]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.11.09-00.48.35:744][778]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.11.09-00.48.35:744][778]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.11.09-00.48.35:744][778]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.11.09-00.48.35:744][778]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.11.09-00.48.35:744][778]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.11.09-00.48.35:745][778]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.11.09-00.48.35:745][778]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.11.09-00.48.35:745][778]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.11.09-00.48.35:745][778]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.11.09-00.48.35:745][778]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.11.09-00.48.36:118][778]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.11.09-00.48.36:118][778]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.11.09-00.48.36:168][778]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.11.09-00.48.36:299][778]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.11.09-00.48.36:299][778]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.11.09-00.48.36:299][778]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.11.09-00.48.36:363][778]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.11.09-00.48.36:830][778]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.11.09-00.48.37:045][778]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.11.09-00.48.37:084][778]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.11.09-00.48.37:141][778]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.11.09-00.48.37:141][778]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.11.09-00.48.37:227][778]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.11.09-00.48.37:415][778]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.11.09-00.48.37:678][778]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.11.09-00.48.37:753][778]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.11.09-00.48.37:753][778]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.11.09-00.48.37:753][778]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.11.09-00.48.37:753][778]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.11.09-00.48.38:115][778]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.11.09-00.48.38:210][778]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.11.09-00.48.39:193][778]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.11.09-00.48.39:352][778]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.11.09-00.48.39:458][778]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.11.09-00.48.39:872][778]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.11.09-00.48.39:872][778]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.11.09-00.48.40:151][778]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.11.09-00.48.40:151][778]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.11.09-00.48.40:151][778]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.11.09-00.48.40:151][778]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.11.09-00.48.40:151][778]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.11.09-00.48.40:237][778]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.11.09-00.48.40:371][778]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.11.09-00.48.40:709][778]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.11.09-00.48.40:906][778]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.11.09-00.48.40:971][778]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.11.09-00.48.40:971][778]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.11.09-00.48.42:369][778]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.11.09-00.48.43:234][778]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.11.09-00.48.44:216][778]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.11.09-00.48.44:216][778]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.11.09-00.48.44:216][778]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.11.09-00.48.44:316][778]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.11.09-00.48.44:507][778]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.11.09-00.48.44:507][778]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.11.09-00.48.44:545][778]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.11.09-00.48.44:883][778]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.11.09-00.48.44:884][778]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.11.09-00.48.45:169][778]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.11.09-00.48.45:169][778]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.11.09-00.48.45:575][778]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.11.09-00.48.45:875][778]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.11.09-00.48.45:875][778]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.11.09-00.48.46:519][778]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.11.09-00.48.46:646][778]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.11.09-00.48.47:122][778]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.11.09-00.48.47:611][778]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.11.09-00.48.47:983][778]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.11.09-00.48.48:421][778]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.11.09-00.48.48:846][778]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.11.09-00.48.49:199][778]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.11.09-00.48.49:962][778]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.11.09-00.48.49:963][778]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.11.09-00.48.51:776][778]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.11.09-00.48.51:776][778]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.11.09-00.48.51:834][778]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.11.09-00.48.52:093][778]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.11.09-00.48.52:093][778]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.11.09-00.48.52:099][778]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.11.09-00.48.52:099][778]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.11.09-00.48.52:099][778]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.11.09-00.48.52:099][778]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.11.09-00.48.52:288][778]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.11.09-00.48.52:558][778]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.11.09-00.48.52:559][778]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.11.09-00.48.52:629][778]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.11.09-00.48.52:713][778]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.11.09-00.48.52:907][778]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.11.09-00.48.53:012][778]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.11.09-00.48.53:552][778]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.11.09-00.48.53:807][778]LogDerivedDataCache: Shutdown
+[2018.11.09-00.48.53:807][778]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.11.09-00.48.53:947][778]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.11.09-00.48.53:988][778]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.11.09-00.48.54:036][778]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.11.09-00.48.54:083][778]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.11.09-00.48.54:185][778]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.11.09-00.48.54:461][778]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.11.09-00.48.54:462][778]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.11.09-00.48.54:786][778]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.11.09-00.48.54:786][778]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.11.09-00.48.55:080][778]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.11.09-00.48.55:080][778]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.11.09-00.48.55:080][778]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.11.09-00.48.55:096][778]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.11.09-00.48.55:097][778]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.11.09-00.48.55:097][778]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.11.09-00.48.55:097][778]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.11.09-00.48.55:097][778]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.11.09-00.48.55:161][778]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.11.09-00.48.55:161][778]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.11.09-00.48.55:161][778]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.11.09-00.48.55:161][778]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.11.09-00.48.55:161][778]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.11.09-00.48.55:161][778]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.11.09-00.48.55:162][778]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.11.09-00.48.55:221][778]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.11.09-00.48.55:319][778]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.11.09-00.48.55:351][778]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.11.09-00.48.55:351][778]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.11.09-00.48.55:386][778]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.11.09-00.48.55:427][778]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.11.09-00.48.55:481][778]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.11.09-00.48.55:481][778]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.11.09-00.48.55:481][778]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.11.09-00.48.55:481][778]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.11.09-00.48.55:481][778]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.11.09-00.48.55:552][778]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.11.09-00.48.55:762][778]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.11.09-00.48.55:762][778]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.11.09-00.48.55:762][778]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.11.09-00.48.55:809][778]LogOnline: Display: Unloading online subsystem: NULL
+[2018.11.09-00.48.56:181][778]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.11.09-00.48.56:417][778]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.11.09-00.48.56:438][778]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.09-00.48.56:547][778]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8D0E623F-4A8E-5727-6889-D7B69598B4CF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=dbb22c314496af46622d2b9bcc8509b2%7Cc9322e93dd3e4b39804e4669aa860f80%7C550ad281-3b1a-41d4-8cc6-fc8c8461a470&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.09-00.48.57:036][778]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.11.09-00.48.57:443][778]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.09-00.48.57:653][778]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.09-00.48.58:178][778]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.09-00.48.58:713][778]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.09-00.48.58:713][778]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.09-00.48.58:713][778]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.09-00.48.58:745][778]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.09-00.49.00:065][778]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.09-00.49.00:111][778]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.09-00.49.00:111][778]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.09-00.49.00:172][778]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.09-00.49.00:172][778]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.09-00.49.00:172][778]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.09-00.49.00:172][778]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.09-00.49.00:203][778]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.09-00.49.00:203][778]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.09-00.49.00:228][778]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.09-00.49.00:228][778]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.09-00.49.00:791][778]LogExit: Exiting.
+[2018.11.09-00.49.01:866][778]Log file closed, 11/08/18 18:49:01
